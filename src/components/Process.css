@@ -1,0 +1,39 @@
+.Process {
+  display: flex;
+  margin: 0 -3rem 4px;
+  padding: 1.1rem 1rem;
+  height: 85px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  position: relative;
+  transition: opacity 500ms ease-in-out;
+}
+.Process-item {
+  position: relative;
+  transition: opacity 0.4s linear;
+  font-size: 13px;
+  width: 550px;
+}
+.Process.completed {
+  transition: opacity 300ms ease-in-out;
+  transition-delay: 200ms;
+  opacity: 0.5;
+}
+
+.Process-buttons {
+  flex-shrink: 0;
+  padding-left: 0.7em;
+  margin-left: auto;
+}
+
+.Process-buttons button {
+  border: none;
+  font-size: 1em;
+  margin: 0.4em;
+  background: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  color: #fff;
+}
