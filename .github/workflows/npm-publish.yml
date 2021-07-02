@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: bindexis
+    runs-on: bindexis, bianor, pegasus
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
